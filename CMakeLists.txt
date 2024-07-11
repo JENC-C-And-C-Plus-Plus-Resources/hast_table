@@ -1,8 +1,6 @@
-cmake_minimum_required(VERSION 3.0.0)
-project(CMakeProject VERSION 0.1.0 LANGUAGES C CXX)
+cmake_minimum_required(VERSION 3.24)
+project(HAST_TABLE)
 
-include(CTest)
-enable_testing()
+set(SOURCE_FILES main.cpp)
 
-add_executable(CMakeProject main.cpp)
-set_property(TARGET CMakeProject PROPERTY CXX_STANDARD 11)
+add_executable(${PROJECT_NAME} ${SOURCE_FILES})
