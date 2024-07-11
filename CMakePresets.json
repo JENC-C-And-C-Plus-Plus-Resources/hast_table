@@ -6,7 +6,7 @@
             "description": "Default settings",
             "hidden": false,
             "generator": "Unix Makefiles",
-            "binaryDir": "${workspaceFodler}/build",
+            "binaryDir": "${workspaceFolder}/build",
             "cacheVariables": {
                 "CMAKE_BUILD_TYPE": "Debug",
                 "CMAKE_EXPORT_COMPILE_COMMANDS": "YES"
