@@ -8,3 +8,9 @@
 
 ## Based tutorial
 - DigitalOcean [How To Implement a Sample Hash Table in C/C++](https://www.digitalocean.com/community/tutorials/hash-table-in-c-plus-plus#deleting-from-the-hash-table)
+
+
+- ## How to run
+mkdir build
+cd build
+cmake ..
